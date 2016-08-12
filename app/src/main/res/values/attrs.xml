@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="src" format="reference" />
+        <attr name="radius" format="dimension" />
+        <attr name="scaleType" format="enum">
+            <enum name="fitCenter" value="1" />
+            <enum name="fitStart" value="2" />
+            <enum name="fitXY" value="3" />
+            <enum name="centerClip" value="4" />
+            <enum name="centerInside" value="5" />
+            <enum name="center" value="6" />
+            <enum name="matrix" value="7" />
+        </attr>
+    </declare-styleable>
+</resources>
