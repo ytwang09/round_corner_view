@@ -10,23 +10,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:weightSum="1">
+        android:orientation="vertical">
 
-        <com.example.wangyitong.round_corner_view.customView.RoundCornerImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:padding="10dp"
-            app:src="@drawable/nature05"
-            android:id="@+id/roundCornerImageView"/>
-
-        <com.example.wangyitong.round_corner_view.customView.RoundCornerImageView
+        <com.example.wangyitong.round_corner_view.customView.Clock
+            android:layout_margin="20dp"
             android:layout_width="300dp"
-            android:layout_height="30dp"
-            android:layout_margin="4dp"
-            app:scaleType="matrix"
-            app:src="@drawable/nature05" />
+            android:layout_height="300dp"
+            android:id="@+id/clock" />
 
     </LinearLayout>
 
